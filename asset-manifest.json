@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.4fb11edd.css",
+    "main.js": "/portfolio-website/static/js/main.dbb5fa66.js",
+    "static/media/Mohammed Faizaan Khan Zubair Khan Resume.pdf": "/portfolio-website/static/media/Mohammed Faizaan Khan Zubair Khan Resume.812394ba723188056f9f.pdf",
+    "index.html": "/portfolio-website/index.html",
+    "main.4fb11edd.css.map": "/portfolio-website/static/css/main.4fb11edd.css.map",
+    "main.dbb5fa66.js.map": "/portfolio-website/static/js/main.dbb5fa66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fb11edd.css",
+    "static/js/main.dbb5fa66.js"
+  ]
+}
