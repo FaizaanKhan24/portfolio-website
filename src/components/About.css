@@ -1,0 +1,73 @@
+.about-container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    margin: 2rem;
+    padding: 0 2rem 2rem;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 3rem;
+    background-color: var(--color-background);
+    align-items: center;
+    font-family: monospace, sans-serif;
+}
+
+.about-me{
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    line-height: 1.2;
+}
+
+.about-me p{
+    text-align: start;
+    margin-bottom: 1.25rem;
+}
+
+.technologies{
+    background-color: royalblue;
+    padding: 2rem 1rem;
+    border-radius: 7px;
+}
+
+.technologies h3{
+    margin: 0 1rem 1rem;
+    font-size: 1.5rem;
+    color: var(--color-lighgray);
+    text-align: left;
+}
+
+.technologies-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.tech-icons{
+    color: var(--color-white);
+    text-align: center;
+    background-color: transparent;
+    font-size: 2rem;
+    margin: 0 .75rem;
+}
+
+@media screen and (max-width: 768px) {
+    .about-container{
+        grid-template-columns: 1fr;
+        overflow-y: scroll;
+        row-gap: 2rem;
+    }
+
+    .about-me{
+        grid-row: 1;
+        font-size: 1.5rem;
+    }
+
+    .technologies{
+        grid-row: 2;
+    }
+
+    .technologies h3{
+        font-size: 2rem;
+    }
+}

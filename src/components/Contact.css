@@ -1,0 +1,39 @@
+.contact{
+    color: var(--color-text); 
+    max-width: 600px;
+    margin: 0 auto 100px;
+    padding: 100px 0px;
+    display: block;
+  }
+  
+  .contact-heading{
+    color: var(--color-blue);
+    margin: 0 0 10px;
+    font-size: 4rem;
+    line-height: 1.1;
+  }
+  
+  .contact-body{
+    font-size: 1.25rem;
+  }
+  
+  .contact-btn{
+    color: var(--color-black);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-black);
+    transition: all 0.25s;
+    border-radius: 0.25rem;
+    padding: 1.25rem 1.75rem;
+    font-size: 1rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.25s;
+    margin-top: 3.125rem;
+  }
+  
+  .contact-btn:hover{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: 2px solid var(--color-blue);
+  }

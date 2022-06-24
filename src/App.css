@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  --color-white: white;
+  --color-gray: gray;
+  --color-black: black;
+  --color-blue: royalblue;
+  --color-lighgray: lightgray;
+  --color-background: var(--color-white);
+  --color-text: var(--color-black);
+  --color-secondary-text: var(--color-gray);
+  --color-icon: var(--color-black);
+}
+
+.App {
+  text-align: center;
+  background-color: var(--color-background);
+  height: 100vh;
+}
+
+.App-header {
+  height: 80vh;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  color: var(--color-background);
+}
+
+.name-color{
+  color: var(--color-blue);
+}

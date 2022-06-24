@@ -1,0 +1,32 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 2rem;
+    margin: 0 auto 100px;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.greetings{
+    margin: 0px 0px 0.25rem 4px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: gray;
+}
+
+.name{
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 750;
+    line-height: 1.1;
+    color: royalblue;
+}
+
+.description{
+    margin-top: 10px;
+    line-height: 0.9;
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 400;
+    text-align: start;
+    color: black;
+}
