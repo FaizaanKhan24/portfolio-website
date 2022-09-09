@@ -2,6 +2,7 @@
     height: 100%;
     width: 100%;
     display: grid;
+    overflow-y: scroll;
     margin: 2rem;
     padding: 0 2rem 2rem;
     grid-template-columns: 1fr 2fr;
@@ -22,6 +23,11 @@
 .about-me p{
     text-align: start;
     margin-bottom: 1.25rem;
+}
+
+.about-me ul{
+    text-align: justify;
+    padding: 0 2rem;
 }
 
 .technologies{
@@ -60,7 +66,8 @@
 
     .about-me{
         grid-row: 1;
-        font-size: 1.5rem;
+        font-size: 1rem;
+        padding: 1rem;
     }
 
     .technologies{

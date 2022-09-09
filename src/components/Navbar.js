@@ -9,7 +9,8 @@ function Navbar(){
     const openResume = () =>{
         //const resumeURL = 'https://drive.google.com/file/d/1-jE7Ko8jXQF6GnavCouWgHhYSfuM7zHU/view?usp=sharing';
         setIsOpen(false);
-        window.open(resumePDF, '_blank','noopener,noreferrer');
+        window.open(resumePDF);
+        // window.open(resumePDF, '_blank','noopener,noreferrer');
     }
 
     // Used to display the hamburger menu when in mobile mode
@@ -42,7 +43,7 @@ function Navbar(){
                 </li>
                 <li className='navigation-menu-item' onClick={openResume}>
                     <div>
-                    <button onClick={openResume} className='btn resume-btn' >
+                    <button className='btn resume-btn' >
                         <span>RESUME</span>
                     </button>
                     </div>

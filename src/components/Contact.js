@@ -13,7 +13,7 @@ function Contact() {
         Hello, let's get in touch
       </h2>
       <div className='contact-body'>
-        <p>I'm open to have a chat on any interesting project ideas, technologies you wanna discuss, or just have a chat. My indox is available for you.</p>
+        <p>I'm open to have a chat on any interesting project ideas, technologies you wanna discuss, or just have a chat. My inbox is available for you.</p>
         <p>Currently, I'm looking for full-time opportunities.</p>
       </div>
       <div>

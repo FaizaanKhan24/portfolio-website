@@ -81,7 +81,7 @@
 @media (max-width:768px){
     .projects{
         grid-template-columns: 1fr;
-        padding: 2.5rem 4rem;
+        padding: 2.5rem 2rem;
     }
 
     .project-description{
@@ -89,6 +89,6 @@
     }
 
     .project-details{
-        padding: 1rem 1.5rem;
+        padding: 1rem;
     }
 }
