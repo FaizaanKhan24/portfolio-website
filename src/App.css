@@ -8,7 +8,9 @@ html{
   --color-white: white;
   --color-gray: gray;
   --color-black: black;
-  --color-blue: royalblue;
+  --color-blue: rgb(0, 122, 255);
+  --color-name: rgb(0, 122, 255);
+  --color-technology-bg: var(--color-blue);
   --color-lighgray: lightgray;
   --color-background: var(--color-white);
   --color-text: var(--color-black);
@@ -32,5 +34,18 @@ html{
 }
 
 .name-color{
-  color: var(--color-blue);
+  color: var(--color-name);
+  font-family: caveat-medium;
+  font-size: 1.25rem;
+}
+
+@font-face {
+  font-family: caveat-medium;
+  src: url(../public/Caveat-Medium.ttf);
+}
+
+@media ( max-width:768px ){
+  .App-header{
+    height: 74vh;
+  }
 }

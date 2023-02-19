@@ -4,14 +4,14 @@
     padding: 100px 2rem;
     margin: 0 auto 100px;
     align-items: flex-start;
-    background-color: white;
+    background-color: var(--color-white);
 }
 
 .greetings{
     margin: 0px 0px 0.25rem 4px;
     font-size: 1.5rem;
     font-weight: 400;
-    color: gray;
+    color: var(--color-gray);
 }
 
 .name{
@@ -19,7 +19,8 @@
     font-size: clamp(40px, 8vw, 80px);
     font-weight: 750;
     line-height: 1.1;
-    color: royalblue;
+    color: var(--color-name);
+    font-family: caveat-medium;
 }
 
 .description{
@@ -28,5 +29,5 @@
     font-size: clamp(40px, 8vw, 80px);
     font-weight: 400;
     text-align: start;
-    color: black;
+    color: var(--color-text);
 }

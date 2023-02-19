@@ -13,8 +13,10 @@
 
 .brand-name{
     text-decoration: none;
-    color: var(--color-text);
-    font-size: 1.3rem;
+    color: var(--color-name);
+    font-family: caveat-medium;
+    font-size: 1.75rem;
+    font-weight: bold;
     margin-left: 1rem;
     display: flex;
     justify-content: center;
