@@ -10,9 +10,10 @@
     bottom: 0; 
     width: 100%;
     min-height: 30px;
-    height: 8%;
+    height: 7%;
     display: flex;
     align-items: center;
+    box-shadow: 0 -4px 5px 0px rgba(9, 9, 9, 0.23);
 }
   
 .footer-left{ 
@@ -44,7 +45,7 @@
 @media ( max-width:768px ){
     .footer{
         flex-direction: column;
-        height: 8%;
+        height: 10%;
     }
 
     .footer-left, .footer-right{
