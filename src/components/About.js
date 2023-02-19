@@ -15,43 +15,14 @@ import {
 } from 'react-icons/fa';
 import { SiDjango, SiCsharp, SiXamarin, SiFlask } from 'react-icons/si';
 import { DiDotnet,  } from 'react-icons/di';
+import displayPic  from '../images/Portfolio pic Medium.jpeg'
 
 function About(){
+  document.title = "Faizaan Khan | About"
   return (
     <div className='about-container'>
-      <div className='technologies'>
-        <h3>I have worked on</h3>
-        <IconContext.Provider value={{className:'tech-icons'}}>
-          <div className='technologies-list'>
-            {/* Web */}
-            <div>
-              <FaReact />
-              <FaJs />
-              <FaHtml5 />
-              <FaCss3Alt />
-            </div>
-            {/* Mobile */}
-            <div>
-              <SiXamarin />
-              <FaAppStoreIos />
-              <FaAndroid />
-              <FaWindows />
-            </div>
-            {/* Backend */}
-            <div>
-              <FaDatabase />
-              <FaDocker />
-              <DiDotnet />
-              <SiDjango />
-              <SiFlask />
-            </div>
-            {/* Programming Languages */}
-            <div>
-              <FaPython />
-              <SiCsharp />
-            </div>
-          </div>
-        </IconContext.Provider>
+      <div className='about-left'>
+        <img src={displayPic} className='display-pic' alt='Portrait'/>
       </div>
       <div className='about-me'>
       <div>
@@ -103,6 +74,40 @@ function About(){
           {/* Final Paragraph */}
           <p>Currently, I am looking for a full-time opportunity in the field of Software Engineering.</p>
         </div>
+      </div>
+      <div className='technologies'>
+          <h3>I have worked on</h3>
+          <IconContext.Provider value={{className:'tech-icons'}}>
+            <div className='technologies-list'>
+              {/* Web */}
+              <div>
+                <FaReact />
+                <FaJs />
+                <FaHtml5 />
+                <FaCss3Alt />
+              </div>
+              {/* Mobile */}
+              <div>
+                <SiXamarin />
+                <FaAppStoreIos />
+                <FaAndroid />
+                <FaWindows />
+              </div>
+              {/* Backend */}
+              <div>
+                <FaDatabase />
+                <FaDocker />
+                <DiDotnet />
+                <SiDjango />
+                <SiFlask />
+              </div>
+              {/* Programming Languages */}
+              <div>
+                <FaPython />
+                <SiCsharp />
+              </div>
+            </div>
+          </IconContext.Provider>
       </div>
     </div>
   )
