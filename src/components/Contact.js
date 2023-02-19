@@ -7,6 +7,8 @@ function Contact() {
     window.location.href = "mailto:mzubair1@binghamton.edu";
   }
 
+  document.title = "Faizaan Khan | Contact Me"
+
   return (
     <div className='contact'>
       <h2 className='contact-heading'>

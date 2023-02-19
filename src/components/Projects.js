@@ -5,6 +5,8 @@ import { FaGithub, FaYoutube } from 'react-icons/fa';
 
 function Projects() {
 
+  document.title = "Faizaan Khan | Projects"
+
   const projectsDetails = [
     {
       name: 'Mobile Inventory Managment',

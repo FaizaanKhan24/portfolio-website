@@ -2,6 +2,7 @@ import './Home.css';
 import React from 'react'
 
 function Home() {
+  document.title = "Faizaan Khan"
   return (
     <div className='home-container'>
         <div className='greetings'>
